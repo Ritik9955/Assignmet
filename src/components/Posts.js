@@ -5,8 +5,18 @@ import { Table } from 'react-bootstrap';
 
 const Posts = ({ posts, loading }) => {
   if (loading) {
+    console.log("Posts0",Posts);
     return <h2>Loading...</h2>;
+
   }
+  else{
+
+    // console.log("Posts0",Posts);
+    posts.map(pos=>{
+      // console.log(pos.number)
+    })
+  }
+  
 
   return (
       <Table striped bordered hover size="sm">

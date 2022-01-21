@@ -1,8 +1,7 @@
 // import React, { useState, useEffect } from 'react';
 import './App.css';
 import Main from './components/Home'
-import Routes from "./Routes";
-import { BrowserRouter } from "react-router-dom";
+
 
 
 const App = () => {
@@ -11,11 +10,7 @@ const App = () => {
       
       <Main>  </Main>
     </div>
-    // <div className="App">
-    //     <BrowserRouter>
-    //       <Routes />
-    //     </BrowserRouter>
-    // </div>   
+     
   );
 };
 
